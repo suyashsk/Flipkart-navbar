@@ -9,7 +9,6 @@ body{
 
 }
 .main-container{
-    height: 75px;
     width: 100%;
     background-color: white;
     position: relative;
@@ -45,7 +44,7 @@ body{
 }
 .main-container .nav-bar .flipkart .search .wraper{
     height: 43px;
-    width:790px;
+    width:740px;
     display: flex;
     align-items: center;
     border: none;
