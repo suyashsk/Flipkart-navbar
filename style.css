@@ -9,6 +9,7 @@ body{
 
 }
 .main-container{
+    height: 80px;
     width: 100%;
     background-color: white;
     position: relative;
