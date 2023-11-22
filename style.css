@@ -33,7 +33,7 @@ body{
     gap:50px;
     margin-top: 10px;
     cursor: pointer;
-    
+    flex-wrap: nowrap;
     
 }
 .main-container .nav-bar .flipkart .search{
