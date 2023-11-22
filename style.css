@@ -1,0 +1,157 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: #f1f2f4;
+
+}
+.main-container{
+    height: 75px;
+    width: 100%;
+    background-color: white;
+    position: relative;
+    
+    
+}
+.main-container .nav-bar{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: black;
+}
+.main-container .nav-bar .flipkart{
+    height: 67px;
+    width: 943px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap:50px;
+    margin-top: 10px;
+    cursor: pointer;
+    
+    
+}
+.main-container .nav-bar .flipkart .search{
+    height: 100%;
+    width: 1600px;
+    
+    display: flex;
+    align-items: center;
+}
+.main-container .nav-bar .flipkart .search .wraper{
+    height: 43px;
+    width:790px;
+    display: flex;
+    align-items: center;
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #f0f5ff;
+   
+}
+.main-container .nav-bar .flipkart .search input{
+    height: 100%;
+    width: 750px;
+    border: none;
+    font-size: 18px  ;
+   background: transparent;
+   padding-left: 8px;
+}
+.main-container .nav-bar .flipkart .search i{
+    font-size:20px;
+    
+    padding: 8px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    
+}
+.main-container .nav-bar .icons{
+    height: 100%;
+    width: 530px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 10px;
+    
+}
+.main-container .nav-bar .icons button{
+    height: 41px;
+    width: 111px;
+    font-size: 16px;
+    line-height: normal;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-right: 20px;
+    border:none;
+    background: transparent;
+    cursor: pointer;
+}
+.main-container .nav-bar .icons button .fa-solid{
+    font-size: 12px;
+}
+.main-container .nav-bar .icons button .fa-circle-user{
+    font-size: 20px;
+    padding: 2px;
+    
+}
+.main-container .nav-bar .icons button .fa-cart-shopping{
+    font-size: 20px;
+    padding: 2px;
+}
+.main-container .nav-bar .icons button .fa-store{
+    font-size: 20px;
+    padding: 2px;
+}
+.main-container .nav-bar .icons #seller{
+    height: 41px;
+    width: 180px;
+}
+
+.main-container .nav-bar .icons #login:hover{
+    background-color: #2a55e5;
+    color: white;
+    border-radius: 10px;
+}
+.main-container .flipkart .search .wraper input:focus{
+    border: none;
+}
+
+.next-container{
+    margin:8px auto;
+    background-color: white;
+    height: 126px;
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.next-container div{
+    height: 100%;
+    width: 130px;
+    
+}
+.next-container .div1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+}
+.next-container .div1 img{
+    height: 80px;
+    width: 80px;
+}
+.next-container .div1 h4{
+    margin-top:5px;
+    text-align: center;
+    color: #333333;
+    font-size: 14px;
+}
